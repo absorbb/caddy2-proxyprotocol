@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
+	"github.com/absorbb/proxyprotocol"
 	"github.com/caddyserver/caddy/v2"
-	"github.com/mastercactapus/proxyprotocol"
 )
 
 // Wrapper provides PROXY protocol support to Caddy by implementing the caddy.ListenerWrapper interface. It must be loaded before the `tls` listener.
