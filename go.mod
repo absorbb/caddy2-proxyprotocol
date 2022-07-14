@@ -1,5 +1,5 @@
 module github.com/absorbb/caddy2-proxyprotocol
-
+retract [v0.0.3, v0.0.5]
 go 1.17
 
 require (
